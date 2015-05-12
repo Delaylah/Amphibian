@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LizardScript.js">
+    <Files>
+      <File FileName="Assets\Scripts\LizardScript.js" Line="13" Column="29" />
+      <File FileName="Assets\Scripts\Jezikkk.js" Line="6" Column="17" />
+      <File FileName="Assets\Scripts\Bugscript.js" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\Spawnscripta.js" Line="21" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

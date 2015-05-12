@@ -1,0 +1,23 @@
+
+U jednoj strasnoj mocvari nalazi se jedan heroj cije je ime malo znano, 
+zove se Amphibian(u svijetu biologije "ONAJ koji jede kukce").
+Vec dugo godina najvece stetocine koje nisu nikada ispunile nijednu zelju su se 
+skupile radi urote da bi jos viseljudskih dusa rastuzile. 
+Naime on je krenuo u akciju eliminisanja tih stetocina(BUG-ova)!!! 
+ One se gnjezde i jedu nase plodove, ali ne, one jedu i nasu dusu usput ali ne dok je nas spasioc tu!!
+Svi vi koji imate barem jednu bubamaru koja vam nije ispunila zelju, osvetite se i obavezno zaigrajte 
+nasu igricu, GladniAmphibian.
+Naime ova egzoticna i neobicna igra prati sve nase zivotne price i neispunjene zelje.
+Sastoji se od jednog levela, koji ide u beskonacnost vaseg nezadovoljstva prema bubamarama.
+ZA SVAKU NEISPUNJENU ZELJU, ON CE POJESTI JEDNU BUBAMARU!
+
+Funkcionalnosti:
+- 	Jedenje buba(mara)
+-	Kretanje u svim mogucim pravcima(x,y) 
+-	Omogucena koordinacija u prostoru, postoji kreativni kompas koji nam pokazuje na sjever
+-	Nas hrabri heroj je naoruzan metcima za brze eliminisanje neprijatelja
+-	Bug/bubamare/bube lete, izmjenjuju velicinu i ikada se ne zna kada ce se i gdje pojaviti ti veliki lazovi
+
+
+
+ 
