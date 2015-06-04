@@ -1,0 +1,15 @@
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\bin\Debug\Amphibian WPF.exe.config
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\bin\Debug\Amphibian WPF.exe
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\bin\Debug\Amphibian WPF.pdb
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\App.g.cs
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF_MarkupCompile.cache
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.g.resources
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.Properties.Resources.resources
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.csproj.GenerateResource.Cache
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.exe
+c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.pdb
+c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\MainWindow.baml
+c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\MainWindow.g.cs
+c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.Main.resources
+c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.FocusedTitle.resources
+C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.Options.resources
