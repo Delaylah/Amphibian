@@ -13,3 +13,6 @@ c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF
 c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.Main.resources
 c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.FocusedTitle.resources
 C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.Options.resources
+C:\Users\Ajla\Desktop\Amphibian\Amphibian WPF\Amphibian WPF\bin\Debug\Amphibian WPF.exe.config
+C:\Users\Ajla\Desktop\Amphibian\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.exe
+C:\Users\Ajla\Desktop\Amphibian\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.pdb
