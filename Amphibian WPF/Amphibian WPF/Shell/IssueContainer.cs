@@ -9,7 +9,7 @@ namespace Amphibian_WPF.Shell
 {
     public class IssueContainer
     {
-        private List<IssueSingle> allIssues;
+        private List<IssueSingle> allIssues = new List<IssueSingle>();
         public List<IssueSingle> AllIssues { get { return allIssues; } set { allIssues = value; } }
         public void delIssue(IssueSingle i) { this.AllIssues.Remove(i); }
         public T search<T>(object arg)
@@ -36,5 +36,12 @@ namespace Amphibian_WPF.Shell
 
             return retValue;
         }
+        public List<IssueSingle> search(String filter, String u)
+        {
+            List<IssueSingle> retValue = allIssues.Where(x => (x.Name + " " + x.Description).Contains(filter) == true && x.Creator.Name==u).ToList();
+
+            return retValue;
+        }
+        public IssueContainer() { }
     }
 }

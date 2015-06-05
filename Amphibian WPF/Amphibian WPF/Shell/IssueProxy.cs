@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Amphibian_WPF.Core;
+using System.IO;
+using System.Drawing;
+using System.Drawing.Printing;
 
 namespace Amphibian_WPF.Shell
 {
@@ -75,7 +78,7 @@ namespace Amphibian_WPF.Shell
         public String getDescription() 
         {
             IssueSingle i = this.TrackedIssue as IssueSingle;
-            if (i == null) return "This is a list, there is no description";
+            if (i == null) throw new ArgumentException("This is a list, there is no description");
             return i.Description; 
         }
         public List<RelatedIssue> getRelatedList()
@@ -84,5 +87,32 @@ namespace Amphibian_WPF.Shell
             if (i == null) new List<RelatedIssue>();
             return i.RelatedList;
         }
+        public String getCreationInfo()
+        {
+            IssueSingle i = this.TrackedIssue as IssueSingle;
+            if (i == null) throw new ArgumentException("This is a list, there is no creation info");
+            return "by: "+i.Creator.Name+", created on: "+i.CreationTime.ToString();
+        }
+        public void printIssue()
+        {
+            IssueSingle i = this.TrackedIssue as IssueSingle;
+            if (i == null) throw new ArgumentException("This is a list, cannot print");
+
+            PrintDocument p = new PrintDocument();
+            String s = i.Name + "\n\n" + "Description:\n" + getDescription();
+            p.PrintPage += delegate(object sender1, PrintPageEventArgs e1)
+            {
+                e1.Graphics.DrawString(s, new Font("Times New Roman", 12), new SolidBrush(Color.Black), new RectangleF(0, 0, p.DefaultPageSettings.PrintableArea.Width, p.DefaultPageSettings.PrintableArea.Height));
+            };
+            try
+            {
+                p.Print();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception Occured While Printing", ex);
+            }
+        }
+
     }
 }

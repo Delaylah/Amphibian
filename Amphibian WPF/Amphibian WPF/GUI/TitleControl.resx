@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="page_content_bl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content_bl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_br" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content_br.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_footer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content_footer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content_header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_lc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content-lc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_rc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content-rc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_tl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content_tl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="page_content_tr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\page_content_tr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tumblr_static_4lls1i6vn2qsss80g8k0ck048" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GUI\GUI Resources\tumblr_static_4lls1i6vn2qsss80g8k0ck048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

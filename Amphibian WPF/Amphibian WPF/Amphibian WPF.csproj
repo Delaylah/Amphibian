@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -60,28 +61,43 @@
     <Compile Include="Core\CommentClasses\EditableComment.cs" />
     <Compile Include="Core\IssueClasses\RelatedIssue.cs" />
     <Compile Include="Core\CommentClasses\ProtectedComment.cs" />
-    <Compile Include="GUI\FocusedTitle.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\FocusedTitle.Designer.cs">
-      <DependentUpon>FocusedTitle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Main.cs">
+    <Compile Include="GUI\IssueViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="GUI\IssueViewForm.Designer.cs">
+      <DependentUpon>IssueViewForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Options.cs">
+    <Compile Include="GUI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainWindowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainWindowForm.Designer.cs">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TitleControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Options.Designer.cs">
-      <DependentUpon>Options.cs</DependentUpon>
+    <Compile Include="GUI\TitleControl.Designer.cs">
+      <DependentUpon>TitleControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SearchControl.Designer.cs">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\CommentProxy.cs" />
+    <Compile Include="Shell\History\CommentHistory.cs" />
     <Compile Include="Shell\History\History.cs" />
     <Compile Include="Shell\History\IssueHistory.cs" />
     <Compile Include="Shell\IssueContainer.cs" />
     <Compile Include="Shell\IssueProxy.cs" />
+    <Compile Include="Shell\localInfo.cs" />
     <Compile Include="Shell\UserContainer.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -118,14 +134,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="GUI\FocusedTitle.resx">
-      <DependentUpon>FocusedTitle.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\IssueViewForm.resx">
+      <DependentUpon>IssueViewForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Options.resx">
-      <DependentUpon>Options.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\MainWindowForm.resx">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TitleControl.resx">
+      <DependentUpon>TitleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -143,41 +165,31 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Resource Include="Resources\page_content-lc.png" />
-    <Resource Include="Resources\page_content-rc.png" />
-    <Resource Include="Resources\page_content_bl.png" />
-    <Resource Include="Resources\page_content_br.png" />
-    <Resource Include="Resources\page_content_footer.png" />
-    <Resource Include="Resources\page_content_header.png" />
-    <Resource Include="Resources\page_content_tl.png" />
-    <Resource Include="Resources\page_content_tr.png" />
+    <None Include="GUI\GUI Resources\page_content_bl.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content_bl.png" />
+    <None Include="GUI\GUI Resources\page_content_br.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content_br.png" />
+    <None Include="GUI\GUI Resources\page_content_footer.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content_footer.png" />
+    <None Include="GUI\GUI Resources\page_content_header.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content_header.png" />
+    <None Include="GUI\GUI Resources\page_content_tl.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content_tl.png" />
+    <None Include="GUI\GUI Resources\page_content_tr.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content_tr.png" />
+    <None Include="GUI\GUI Resources\page_content-lc.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content-lc.png" />
+    <None Include="GUI\GUI Resources\page_content-rc.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GUI Resources\page_content-rc.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="GUI Resources\tumblr_static_4lls1i6vn2qsss80g8k0ck048.jpg" />
+    <None Include="GUI\GUI Resources\tumblr_static_4lls1i6vn2qsss80g8k0ck048.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

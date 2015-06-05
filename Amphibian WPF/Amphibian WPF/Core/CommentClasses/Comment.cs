@@ -16,6 +16,8 @@ namespace Amphibian_WPF.Core
         public String Content { get { return content; } set { content = value; } }
         private DateTime creationTime;
         public DateTime CreationTime { get { return creationTime; } set { creationTime = value; } }
+        private Int32 dbID;
+        public Int32 databaseID { get { return dbID; } set { dbID = value; } }
 
         internal Comment(User owner, IssueSingle owningIssue, String content) 
         {

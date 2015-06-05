@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Amphibian_WPF.Shell;
+using Amphibian_WPF.GUI;
+using Amphibian_WPF.Core;
 
 namespace Amphibian_WPF
 {
@@ -22,12 +25,13 @@ namespace Amphibian_WPF
 
     public partial class MainWindow : Window
     {
-
+        private localInfo info=new localInfo();
         public MainWindow()
         {
+            info.userList.Add(new ProjectManager("Adis","pass"));
+            MainWindowForm lf = new MainWindowForm(info);
+            lf.Show();
             InitializeComponent();
-            Main m = new Main();
-            m.Show();
         }
     }
 }

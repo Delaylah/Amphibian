@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Amphibian_WPF.Core;
+using Amphibian_WPF.Shell;
 
 namespace Amphibian_WPF.GUI
 {
-    public partial class FocusedTitle : UserControl
+    public partial class TitleControl : UserControl
     {
-        public String TitleText { get { return title.Text; } set { title.Text = value; } }
-        public FocusedTitle()
+        public String text { get { return titleText.Text; } set { titleText.Text = value; } }
+        public TitleControl()
         {
             InitializeComponent();
-            title.BackColor = System.Drawing.Color.Black;
         }
     }
 }

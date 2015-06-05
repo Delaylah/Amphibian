@@ -15,5 +15,7 @@ namespace Amphibian_WPF.Core
         private List<Issue> history = new List<Issue>();
         public List<Issue> Histoy { get { return history; } set { history = value; } }
         internal Issue(String name) { this.Name = name; }
+        private Int32 dbID;
+        public Int32 databaseID { get { return dbID; } set { dbID = value; } }
     }
 }
