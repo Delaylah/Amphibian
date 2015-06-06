@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Amphibian_WPF.Core
 {
@@ -22,6 +23,8 @@ namespace Amphibian_WPF.Core
         public List<RelatedIssue> RelatedList { get { return relatedList; } set { relatedList = value; } }
         private List<Comment> comments = new List<Comment>();
         public List<Comment> Comments { get { return comments; } set { comments = value; } }
+        private String _status;
+        public String Status { get { return _status; } set { Status = value; } }
 
         public IssueSingle(User creator, Boolean priv, String name, String description) : base(name) 
         {
@@ -30,6 +33,7 @@ namespace Amphibian_WPF.Core
             this.Description = description;
             this.CreationTime = DateTime.Now;
             this.EditTime = DateTime.Now;
+            this.Status = "Unconfirmed";
         }
     }
 }

@@ -8,10 +8,17 @@ c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF
 c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.csproj.GenerateResource.Cache
 c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.exe
 c:\users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF.pdb
-c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\MainWindow.baml
-c:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\MainWindow.g.cs
-C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.TitleControl.resources
-C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.IssueViewForm.resources
-C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.LoginForm.resources
-C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.MainWindowForm.resources
-C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian_WPF.GUI.SearchControl.resources
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\bin\Debug\Amphibian Database.mdf
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\bin\Debug\Amphibian Database_log.ldf
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF_Content.g.cs
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GUI\LoginWindow.baml
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GUI\mainWindow.baml
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GUI\LoginWindow.g.cs
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GUI\mainWindow.g.cs
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GUI\SearchUserControl.baml
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GUI\SearchUserControl.g.cs
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\Amphibian WPF_MarkupCompile.lref
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\MenuControls.baml
+C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\MenuControls.g.cs
+C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\bin\Debug\GUI\Info.docx

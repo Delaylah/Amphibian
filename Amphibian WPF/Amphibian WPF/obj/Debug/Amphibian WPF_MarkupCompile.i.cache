@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\
+C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\obj\Debug\
 Amphibian_WPF
 none
 false
 DEBUG;TRACE
-C:\Users\yamic\Documents\Visual Studio 2013\Projects\Amphibian WPF\Amphibian WPF\App.xaml
-11151548125
-
-391208211426
+C:\Users\yamic\documents\visual studio 2013\Projects\Amphibian WPF\Amphibian WPF\App.xaml
+4-1557807425
+2-1792994210
+34-1957603039
 15900316235
-MainWindow.xaml;
+GUI\LoginWindow.xaml;GUI\mainWindow.xaml;GUI\SearchUserControl.xaml;MenuControls.xaml;
 
 False
 

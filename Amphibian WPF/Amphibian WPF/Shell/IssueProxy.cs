@@ -7,16 +7,18 @@ using Amphibian_WPF.Core;
 using System.IO;
 using System.Drawing;
 using System.Drawing.Printing;
+using System.ComponentModel;
 
 namespace Amphibian_WPF.Shell
 {
     public class IssueProxy
     {
         private IssueList project;
+        [Browsable(false)]
         public IssueList Project { get { return project; } set { project = value; } }
         private Issue trackedIssue;
+        [Browsable(false)]
         public Issue TrackedIssue { get { return trackedIssue; } set { trackedIssue = value; } }
-        public String getName() { return this.TrackedIssue.Name; }
         public IssueProxy(String name)
         {
             if (name == "") return;
@@ -29,14 +31,15 @@ namespace Amphibian_WPF.Shell
             if (i == null) return new List<Issue>();
             return i.SubIssues;
         }
-        public void newIssue(Boolean list)
+        public void newIssue(User submitter, Boolean list)
         {
             if (list){
-                //gui for list creation
+                IssueList tempL = new IssueList("%novalue%");
+                this.TrackedIssue = tempL;
                 return;
             }
-            //gui for single issue creation
-            return;
+            IssueSingle tempS = new IssueSingle(submitter, false, "%novalue%", "%novalue%");
+            this.TrackedIssue = tempS;
         }
         public void addRelated(IssueContainer allIssues, Int32 id, String relationType) 
         {

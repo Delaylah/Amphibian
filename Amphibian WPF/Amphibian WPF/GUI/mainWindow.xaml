@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:GUI="clr-namespace:Amphibian_WPF.GUI" xmlns:local="clr-namespace:Amphibian_WPF" x:Class="Amphibian_WPF.mainWindow"
+        Title="Amphibian" Height="310" Width="970">
+    <Grid Background="#FF0F0F0F">
+
+        <GUI:SearchUserControl x:Name="searchMenu1" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top"/>
+
+        <local:MenuControls x:Name="menuControls1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="OVERVIEW" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Foreground="#FF7C7153" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
